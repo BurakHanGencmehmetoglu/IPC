@@ -167,7 +167,7 @@ The function print_map is used to print the map. In the output ‘@’ is the pl
 wall, ‘+’ is the door, ‘.’ is the empty space and all other ASCII letters are possible monsters.
 
 For the example in 3.1 section, the initial output of the function should be:
-10##+###
+##+###
 #J...#
 #....#
 #..@.#
