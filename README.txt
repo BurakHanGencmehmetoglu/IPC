@@ -185,7 +185,7 @@ There are four different types of game over messages:
 
 
 Sample input can be run with :
-> make all \n
+> make all 
 > ./world < input.txt
 
 
