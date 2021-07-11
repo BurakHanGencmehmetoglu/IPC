@@ -28,19 +28,19 @@ rely on the information they get from the messages/responses.
 
 World tasks: 
 
-1. Send turn message to and receive response from the player,
-2. Process the response
-3. Send turn message to the every monster,
-4. Collect monster responses in a loop, checking for any of the pipe ends for a new responses
+1- Send turn message to and receive response from the player,
+2- Process the response
+3- Send turn message to the every monster,
+4- Collect monster responses in a loop, checking for any of the pipe ends for a new responses
 and reading them.
-5. After all monster responses are received, sort them based on processing order, their
+5- After all monster responses are received, sort them based on processing order, their
 current coordinates. The coordinates on the map will be ordered left to right (first
 dimension) and top to bottom (second dimension) in increasing order.
-6. For every response:
+6- For every response:
 • Determine the type of the response. The response types and contents are explained
 in the Communication subsection.
 • Process the response and update the world information.
-7. After all responses are processed, print the map to the standard output.
+7- After all responses are processed, print the map to the standard output.
 
 
 
@@ -174,17 +174,18 @@ For the example in 3.1 section, the initial output of the function should be:
 #....#
 #..s.#
 #....#
-######
 
 
 There are four different types of game over messages:
-1. go_reached, when the player reached the door
-2. go_survived, when the player eliminated all monsters
-3. go_left, when the player left the game
-4. go_died, when the player died
+1- go_reached, when the player reached the door
+2- go_survived, when the player eliminated all monsters
+3- go_left, when the player left the game
+4- go_died, when the player died
 
 
 
 Sample input can be run with :
 > make all
 > ./world < input.txt
+
+
